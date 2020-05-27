@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+body,
+h1,
+h3 {
+  margin: 0;
+}
+
+.doomclock-container {
+  width: 75vw;
+  height: 350px;
+  background-color: grey;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.doomclock-container .countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+}
+.doomclock-container .countdown-container h1,
+.doomclock-container .countdown-container .colin {
+  font-size: 100px;
+}
+.doomclock-container .countdown-container .colin {
+  margin-bottom: auto;
+  line-height: 100px;
+}
+.doomclock-container .countdown-container .countVar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.doomclock-container .countdown-container .countVar h3 {
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=doom.css.map */
